@@ -1,3 +1,7 @@
+<center>
+    <img src="./md/images/ITGAMBanner.png" alt="Itgam Banner">
+</center>
+
 # Shopping Cart 🛒 Proyect
 
 Proyecto didactico para el curso de
