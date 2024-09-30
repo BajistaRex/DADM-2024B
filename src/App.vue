@@ -19,13 +19,13 @@
   </h1>
   <div class="add-item form">
 <!-- Agrupando en un div las entradas -->
-<form v-on:submit="items.push({ id: items.length + 1, label: newItem })" class="add-item fomr">
-    <!-- entrada de texto -->
-    <input
-      v-model.trim="newItem"
-      type="text"
-      placeholder="Add Item"
-    />
+<form v-on:submit.prevent="items.push({ id: items.length + 1, label: newItem })" class="add-item form">
+<!-- entrada de texto -->
+	<input
+  v-model.trim="newItem"
+  type="text"
+  placeholder="Add Item"
+  />
     <!-- Caja de seleccion de prioridad -->
     <label>
       <input type="checkbox" v-model="newItemHighPriority" />
